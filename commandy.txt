@@ -1,0 +1,8 @@
+First need to switch to the correct module
+module load daint-mc
+module switch PrgEnv-cray/6.0.10 PrgEnv-gnu
+
+Then run make
+we get an executable file that can be run by just naming the file:
+./cpi_omp
+and this gives me an output
